@@ -1,0 +1,39 @@
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+    
+
+main{
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://wallpapercave.com/wp/wp4316575.jpg);
+}
+
+#background h2{
+    color: green;
+    padding: 10px;
+
+}
+#confirmar{
+    color: black;
+    margin: 1.1rem 0 0.7rem;
+  }
+
+#background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 6px;
+    border: black solid 3px;
+    backdrop-filter: blur(5px);
+    height: 400px;
+}
+p{
+    font-size: 20px;
+
+}
